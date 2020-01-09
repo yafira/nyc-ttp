@@ -1,0 +1,62 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background: red; */
+
+  /* 500px width is the max of how many boxes can fit inside container */
+  /* kept track of how many boxes can fill the container and multiplied 
+  the number of boxes by the numer of rows */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: auto;
+  display: inline-block;
+}
+
+.box:hover {
+  background: black;
+}
+
+input {
+  width: 15%;
+  height: 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid black;
+}
+
+input:hover {
+  background: black;
+  color: white;
+}
+
+.magenta {
+  background: magenta;
+}
+
+.lightslategrey {
+  background: lightslategrey;
+}
+
+.greenyellow {
+  background: greenyellow;
+}
+
+.blue {
+  background: blue;
+}
