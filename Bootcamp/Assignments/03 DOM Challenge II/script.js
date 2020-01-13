@@ -5,6 +5,7 @@ var columns = 1;
 var rows = 1;
 
 var boxes;
+var color = document.querySelector("#color");
 
 // Adds columns
 document.querySelector("#addcolumn").addEventListener("click", function(){
@@ -35,6 +36,19 @@ document.querySelector("#removerow").addEventListener("click", function(){
   }
 });
 
+// Fills all cells with selected color
+document.querySelector("#fillall").addEventListener("click", function(){
+  boxes = document.querySelectorAll(".box");
+  boxes.forEach( function(item){
+    item.classList.remove("magenta");
+    item.classList.remove("lightslategrey");
+    item.classList.remove("greenyellow");
+    item.classList.remove("blue");
+
+    item.classList.add(color.value);
+  });
+});
+
 // Resets colors when filled
 document.querySelector("#resetcolors").addEventListener("click", fillBoxes);
 
@@ -45,7 +59,7 @@ document.querySelector("#resetcolors").addEventListener("click", fillBoxes);
 
 
 
-// Fills boxes with colums and rows
+// Maximizes/minimizes the count of boxes for columns and rows
 function fillBoxes(){
   console.log("Columns: " + columns);
   console.log("Rows: " + rows);
@@ -53,17 +67,22 @@ function fillBoxes(){
   container.style.width = (50*columns)+"px";
   container.innerHTML = "";
 
-// Columns * Rows = max amount of boxes inside container using width
+  // Columns * Rows = max amount of boxes inside container using width
   for(var i=0; i < columns*rows ; i++){
     createBox();
   }
 
-// Fill cells with the color selected
-  var color = document.querySelector("#color");
+  // Add event listener for color
+  // Fill clicked box with the selected color
   boxes = document.querySelectorAll(".box");
   boxes.forEach( function(item){
     item.addEventListener("click", function(){
       console.log("clicked box.");
+        this.classList.remove("magenta");
+        this.classList.remove("lightslategrey");
+        this.classList.remove("greenyellow");
+        this.classList.remove("blue");
+
       this.classList.add(color.value);
     });
   });
