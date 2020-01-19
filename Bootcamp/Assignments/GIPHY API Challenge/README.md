@@ -32,3 +32,6 @@ To hit various GIPHY API Endpoints, you can use the following paths:<br>
 
 - Random Search: http://api.giphy.com/v1/gifs/random?api_key=YOUR_API_KEY<br>
 -- returns a singular gif object!<br>
+
+## Improvements:
+•	Fix routes for random and regular search
