@@ -36,12 +36,15 @@ http://ctp-zip-api.herokuapp.com/zip/10016
 - Provide the city name in the url and you will receive a JSON response with an array containing a list of all zip codes for that city: http://ctp-zip-api.herokuapp.com/city/SPRINGFIELD
 
 ## Required Tasks:
-•	Implement a City Search field that takes city names,
+•	Implement a City Search field that takes city names, <br>
 -- it should allow city names to be entered in upper, lower, or mixed case letters <br>
 •	Display all zip codes received from the API <br>
 •	Display all states where the city was found in the API <br>
 •	Group received zip codes by state <br>
 •	Display city details for each Zip code <br>
+
+## Improvements:
+•	Link City & Zip search 
 
 
 
