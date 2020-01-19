@@ -1,0 +1,36 @@
+form {
+  background-color: rgb(224, 214, 245);
+  width: 50%;
+  margin: 30px auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.zip {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-width: 5px;
+}
+
+.output {
+  text-align: center;
+}
+
+.city {
+  margin: 30px auto;
+  padding: 20px;
+  font-size: 20px;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.city li{
+  font-size: 14px;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+form {
+  background-color: lightyellow;
+  width: 50%;
+  margin: 30px auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.city {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-width: 5px;
+}
+
+.output {
+  text-align: center;
+}
+
+.output li{
+  margin: 10px 0px;
+  list-style-type: none;
+}

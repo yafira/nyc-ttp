@@ -1,0 +1,29 @@
+body, html {
+  width: 100%;
+}
+
+form {
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.output {
+  column-count: 5;
+  column-gap: 5px;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+.output img {
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  display: inline-block;
+  width: 100%;
+  margin: 1px 0px;
+}
