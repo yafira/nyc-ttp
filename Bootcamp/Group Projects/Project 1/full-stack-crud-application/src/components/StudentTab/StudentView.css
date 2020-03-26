@@ -1,0 +1,94 @@
+.studentview-main{
+
+    height: 220px;
+    width: 640px;
+    margin-left: 30%;
+}
+
+.studentview-img {
+   
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin-top: 150px;
+    padding-left: 125px;
+    float: left;
+}
+
+.studentview-info {
+    display: inline-block;
+    margin-top: 10%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.studentview-title {
+    padding-left: 30px;
+    padding-top: 175px;
+    color: goldenrod;
+    text-shadow: 1px 1px rgba(132, 162, 207, 0.2);
+    font-size: 14pt;
+    font-weight: bold;
+   
+}
+
+.studentview-gpa {
+    padding-left: 35px;
+    margin: 9px 20px;
+    color:goldenrod;
+    text-shadow: 1px 1px rgba(132, 162, 207, 0.2);
+    font-size: 10pt;
+}
+
+.studentview-actionbar {
+    margin-left: 30%;
+    height: 50px;
+    width: 640px;
+   
+}
+
+.studentview-actions {
+   
+    display: inline-block;
+    float: right;
+}
+.studentview-buttons {
+    margin-top: -26rem;
+   
+    display: inline-block;
+    float: right;
+    background: rgba(236, 244, 255, 0);
+    color: goldenrod;
+    border: none;
+    text-decoration: underline;
+    text-shadow: 1px 1px rgba(132, 162, 207, 0.2);
+    font-size: 10pt;
+}
+
+.studentview-button{
+    margin-top: -15rem;
+    margin-left: 50rem;
+
+}
+.campusbar {
+    margin-top: 150px;
+    width: 640px;
+    margin-left: 30%;
+    padding-top: 5px;
+}
+
+.campusview-selector {
+    margin-left: 100px;
+    background: rgba(236, 244, 255, 0.5);
+    color: goldenrod;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px rgba(132, 162, 207, 0.2);
+    font-size: 10pt;
+}
+#SViewBg{
+    width: 200vh;
+    height: 200vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../assets/classroom.jpg")no-repeat center center/cover fixed;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 10px;
+  background: url("./assets/home.jpg") no-repeat center center/cover fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Harry Potter Regular';
+
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: 'Harry Potter Regular';
+  
+}
+
+html{
+  font-family: 'Harry Potter Regular';
+}
+
+
+/* CSS HELP FROM MARK AMMARI*/
